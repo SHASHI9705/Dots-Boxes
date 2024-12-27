@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dots & Boxes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="x-icon" href="dots.png">
+</head>
+<body>
+    <h1 class="gameHead">Dots And Boxes</h1>
+    <div class="main">
+        <div class="line1st">
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="t1"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="t2"></div>
+            <div class="dot1"></div>
+            <div class="line1"onclick="changeColor(this)" id="t3"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="t4"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="t5"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="t6"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="t7"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="t8"></div>
+            <div class="dot1"></div>
+        </div>
+        <div class="line2nd">
+            <div class="line2" onclick="changeColor(this)" id="l1"></div>
+            <div class="line2" onclick="changeColor(this)" id="r1"></div>
+            <div class="line2" onclick="changeColor(this)" id="r2"></div>
+            <div class="line2" onclick="changeColor(this)" id="r3"></div>
+            <div class="line2" onclick="changeColor(this)" id="r4"></div>
+            <div class="line2" onclick="changeColor(this)" id="r5"></div>
+            <div class="line2" onclick="changeColor(this)" id="r6"></div>
+            <div class="line2" onclick="changeColor(this)" id="r7"></div>
+            <div class="line2last" onclick="changeColor(this)" id="r8"></div>
+        </div>
+        <div class="line1st">
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b1"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b2"></div>
+            <div class="dot1"></div>
+            <div class="line1"onclick="changeColor(this)" id="b3"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b4"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b5"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b6"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b7"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b8"></div>
+            <div class="dot1"></div>
+        </div>
+        <div class="line2nd">
+            <div class="line2" onclick="changeColor(this)" id="l9"></div>
+            <div class="line2" onclick="changeColor(this)" id="r9"></div>
+            <div class="line2" onclick="changeColor(this)" id="r10"></div>
+            <div class="line2" onclick="changeColor(this)" id="r11"></div>
+            <div class="line2" onclick="changeColor(this)" id="r12"></div>
+            <div class="line2" onclick="changeColor(this)" id="r13"></div>
+            <div class="line2" onclick="changeColor(this)" id="r14"></div>
+            <div class="line2" onclick="changeColor(this)" id="r15"></div>
+            <div class="line2last" onclick="changeColor(this)" id="r16"></div>
+        </div>
+        <div class="line1st">
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b9"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b10"></div>
+            <div class="dot1"></div>
+            <div class="line1"onclick="changeColor(this)" id="b11"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b12"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b13"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b14"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b15"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b16"></div>
+            <div class="dot1"></div>
+        </div>
+        <div class="line2nd">
+            <div class="line2" onclick="changeColor(this)" id="l17"></div>
+            <div class="line2" onclick="changeColor(this)" id="r17"></div>
+            <div class="line2" onclick="changeColor(this)" id="r18"></div>
+            <div class="line2" onclick="changeColor(this)" id="r19"></div>
+            <div class="line2" onclick="changeColor(this)" id="r20"></div>
+            <div class="line2" onclick="changeColor(this)" id="r21"></div>
+            <div class="line2" onclick="changeColor(this)" id="r22"></div>
+            <div class="line2" onclick="changeColor(this)" id="r23"></div>
+            <div class="line2last" onclick="changeColor(this)" id="r24"></div>
+        </div>
+        <div class="line1st">
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b17"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b18"></div>
+            <div class="dot1"></div>
+            <div class="line1"onclick="changeColor(this)" id="b19"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b20"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b21"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b22"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b23"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b24"></div>
+            <div class="dot1"></div>
+        </div>
+        <div class="line2nd">
+            <div class="line2" onclick="changeColor(this)" id="l25"></div>
+            <div class="line2" onclick="changeColor(this)" id="r25"></div>
+            <div class="line2" onclick="changeColor(this)" id="r26"></div>
+            <div class="line2" onclick="changeColor(this)" id="r27"></div>
+            <div class="line2" onclick="changeColor(this)" id="r28"></div>
+            <div class="line2" onclick="changeColor(this)" id="r29"></div>
+            <div class="line2" onclick="changeColor(this)" id="r30"></div>
+            <div class="line2" onclick="changeColor(this)" id="r31"></div>
+            <div class="line2last" onclick="changeColor(this)" id="r32"></div>
+        </div>
+        <div class="line1st">
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b25"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b26"></div>
+            <div class="dot1"></div>
+            <div class="line1"onclick="changeColor(this)" id="b27"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b28"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b29"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b30"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b31"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b32"></div>
+            <div class="dot1"></div>
+        </div>
+        <div class="line2nd">
+            <div class="line2" onclick="changeColor(this)" id="l33"></div>
+            <div class="line2" onclick="changeColor(this)" id="r33"></div>
+            <div class="line2" onclick="changeColor(this)" id="r34"></div>
+            <div class="line2" onclick="changeColor(this)" id="r35"></div>
+            <div class="line2" onclick="changeColor(this)" id="r36"></div>
+            <div class="line2" onclick="changeColor(this)" id="r37"></div>
+            <div class="line2" onclick="changeColor(this)" id="r38"></div>
+            <div class="line2" onclick="changeColor(this)" id="r39"></div>
+            <div class="line2last" onclick="changeColor(this)" id="r40"></div>
+        </div>
+        <div class="line1st">
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b33"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b34"></div>
+            <div class="dot1"></div>
+            <div class="line1"onclick="changeColor(this)" id="b35"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b36"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b37"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b38"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b39"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b40"></div>
+            <div class="dot1"></div>
+        </div>
+        <div class="line2nd">
+            <div class="line2" onclick="changeColor(this)" id="l41"></div>
+            <div class="line2" onclick="changeColor(this)" id="r41"></div>
+            <div class="line2" onclick="changeColor(this)" id="r42"></div>
+            <div class="line2" onclick="changeColor(this)" id="r43"></div>
+            <div class="line2" onclick="changeColor(this)" id="r44"></div>
+            <div class="line2" onclick="changeColor(this)" id="r45"></div>
+            <div class="line2" onclick="changeColor(this)" id="r46"></div>
+            <div class="line2" onclick="changeColor(this)" id="r47"></div>
+            <div class="line2last" onclick="changeColor(this)" id="r48"></div>
+        </div>
+        <div class="line1st">
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b41"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b42"></div>
+            <div class="dot1"></div>
+            <div class="line1"onclick="changeColor(this)" id="b43"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b44"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b45"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b46"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b47"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b48"></div>
+            <div class="dot1"></div>
+        </div>
+        <div class="line2nd">
+            <div class="line2" onclick="changeColor(this)" id="l49"></div>
+            <div class="line2" onclick="changeColor(this)" id="r49"></div>
+            <div class="line2" onclick="changeColor(this)" id="r50"></div>
+            <div class="line2" onclick="changeColor(this)" id="r51"></div>
+            <div class="line2" onclick="changeColor(this)" id="r52"></div>
+            <div class="line2" onclick="changeColor(this)" id="r53"></div>
+            <div class="line2" onclick="changeColor(this)" id="r54"></div>
+            <div class="line2" onclick="changeColor(this)" id="r55"></div>
+            <div class="line2last" onclick="changeColor(this)" id="r56"></div>
+        </div>
+        <div class="line1st">
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b49"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b50"></div>
+            <div class="dot1"></div>
+            <div class="line1"onclick="changeColor(this)" id="b51"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b52"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b53"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b54"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b55"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b56"></div>
+            <div class="dot1"></div>
+        </div>
+        <div class="line2nd">
+            <div class="line2" onclick="changeColor(this)" id="l57"></div>
+            <div class="line2" onclick="changeColor(this)" id="r57"></div>
+            <div class="line2" onclick="changeColor(this)" id="r58"></div>
+            <div class="line2" onclick="changeColor(this)" id="r59"></div>
+            <div class="line2" onclick="changeColor(this)" id="r60"></div>
+            <div class="line2" onclick="changeColor(this)" id="r61"></div>
+            <div class="line2" onclick="changeColor(this)" id="r62"></div>
+            <div class="line2" onclick="changeColor(this)" id="r63"></div>
+            <div class="line2last" onclick="changeColor(this)" id="r64"></div>
+        </div>
+        <div class="line1st">
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b57"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b58"></div>
+            <div class="dot1"></div>
+            <div class="line1"onclick="changeColor(this)" id="b59"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b60"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b61"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b62"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b63"></div>
+            <div class="dot1"></div>
+            <div class="line1" onclick="changeColor(this)" id="b64"></div>
+            <div class="dot1"></div>
+        </div>
+        
+
+    </div>
+    <div class="footer">
+        <div class="p1"></div>
+        <button type="submit" class="resetbtn" onclick="resetColor()">Reset Game</button>
+        <div class="p2"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

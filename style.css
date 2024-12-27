@@ -1,0 +1,156 @@
+
+body{
+    background-color: gray;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    color: aqua;
+    text-shadow: 0 0 4px black;
+    box-shadow: 0 0 4px black;
+    background-color: white;
+    border-radius: 10px;
+    top: 0;
+}
+.clicked{
+    background-color: red;
+    box-shadow: 0 0 5px white;
+}
+
+.main{
+    height: 500px;
+    width: 500px;
+    background-color:blue;
+    margin-left: 32%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 5px solid black;
+    box-shadow: 0 0 4px black;
+    border-radius: 10px;
+    
+}
+.line1st{
+    display: flex;
+}
+
+
+.dot1{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0 0 5px white;
+}
+
+
+.line1{
+    height: 9px;
+    width: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+}
+
+.line1:hover{
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+}
+
+.line2nd{
+    display: flex;
+}
+
+.line2{
+    height: 50px;
+    width: 9px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-right: 50.5px;
+
+}
+
+.line2:hover{
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+}
+
+.line2last{
+    height: 50px;
+    width: 9px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+.line2last:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
+
+.footer{
+    display: flex;
+
+    margin-left: 35%;
+}
+
+
+.resetbtn{
+    background-color: rgb(14, 57, 163);
+    font: bold;
+    text-align: center;
+    color: aqua;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 19px;
+    margin-top: 22px;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 0 0 4px black;
+}
+
+.resetbtn:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.p1{
+    background-color: rgb(132, 137, 0);
+    font: bold;
+    text-align: center;
+    color: aqua;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 22px;
+    font-size: 27px;
+    font-style: italic;
+    text-shadow: 0 0 4px black;
+    border: 2px solid black;
+}
+
+.p2{
+    background-color: rgb(132, 137, 0);
+    font: bold;
+    text-align: center;
+    color: aqua;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 19px;
+    margin-top: 22px;
+    font-size: 27px;
+    font-style: italic;
+    text-shadow: 0 0 4px black;
+    border: 2px solid black;
+}
