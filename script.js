@@ -1059,172 +1059,172 @@ function handleClick(event) {
     if (div.id.includes('t8') || div.id.includes('r8') || div.id.includes('b8') || div.id.includes('r7') ) {
         square8Clicked++;
     }
-    if (div.id.includes('b1') || div.id.includes('r9') || div.id.includes('b9') || div.id.includes('l9')) {
+    if (div.id.includes('b1') || div.id.includes('c9') || div.id.includes('d9') || div.id.includes('l9')) {
         square9Clicked++;
     }
-    if (div.id.includes('b2') || div.id.includes('r10') || div.id.includes('b10') || div.id.includes('r9')) {
+    if (div.id.includes('b2') || div.id.includes('c10') || div.id.includes('d10') || div.id.includes('c9')) {
         square10Clicked++;
     }
-    if (div.id.includes('b3') || div.id.includes('r11') || div.id.includes('b11') || div.id.includes('r10')) {
+    if (div.id.includes('b3') || div.id.includes('c11') || div.id.includes('d11') || div.id.includes('c10')) {
         square11Clicked++;
     }
-    if (div.id.includes('b4') || div.id.includes('r12') || div.id.includes('b12') || div.id.includes('r11') ) {
+    if (div.id.includes('b4') || div.id.includes('c12') || div.id.includes('d12') || div.id.includes('c11') ) {
         square12Clicked++;
     }
-    if (div.id.includes('b5') || div.id.includes('r13') || div.id.includes('b13') || div.id.includes('r12')) {
+    if (div.id.includes('b5') || div.id.includes('c13') || div.id.includes('d13') || div.id.includes('c12')) {
         square13Clicked++;
     }
-    if (div.id.includes('b6') || div.id.includes('r14') || div.id.includes('b14') || div.id.includes('r13') ) {
+    if (div.id.includes('b6') || div.id.includes('c14') || div.id.includes('d14') || div.id.includes('c13') ) {
         square14Clicked++;
     }
-    if (div.id.includes('b7') || div.id.includes('r15') || div.id.includes('b15') || div.id.includes('r14')) {
+    if (div.id.includes('b7') || div.id.includes('c15') || div.id.includes('d15') || div.id.includes('c14')) {
         square15Clicked++;
     }
-    if (div.id.includes('b8') || div.id.includes('r16') || div.id.includes('b16') || div.id.includes('r15') ) {
+    if (div.id.includes('b8') || div.id.includes('c16') || div.id.includes('d16') || div.id.includes('c15') ) {
         square16Clicked++;
     }
-    if (div.id.includes('b9') || div.id.includes('r17') || div.id.includes('b17') || div.id.includes('l17')) {
+    if (div.id.includes('d9') || div.id.includes('e17') || div.id.includes('f17') || div.id.includes('l17')) {
         square17Clicked++;
     }
-    if (div.id.includes('b10') || div.id.includes('r18') || div.id.includes('b18') || div.id.includes('r17') ) {
+    if (div.id.includes('d10') || div.id.includes('e18') || div.id.includes('f18') || div.id.includes('e17') ) {
         square18Clicked++;
     }
-    if (div.id.includes('b11') || div.id.includes('r19') || div.id.includes('b19') || div.id.includes('r18')) {
+    if (div.id.includes('d11') || div.id.includes('e19') || div.id.includes('f19') || div.id.includes('e18')) {
         square19Clicked++;
     }
-    if (div.id.includes('b12') || div.id.includes('r20') || div.id.includes('b20') || div.id.includes('r19') ) {
+    if (div.id.includes('d12') || div.id.includes('e20') || div.id.includes('f20') || div.id.includes('e19') ) {
         square20Clicked++;
     }
-    if (div.id.includes('b13') || div.id.includes('r21') || div.id.includes('b21') || div.id.includes('r20')) {
+    if (div.id.includes('d13') || div.id.includes('e21') || div.id.includes('f21') || div.id.includes('e20')) {
         square21Clicked++;
     }
-    if (div.id.includes('b14') || div.id.includes('r22') || div.id.includes('b22') || div.id.includes('r21') ) {
+    if (div.id.includes('d14') || div.id.includes('e22') || div.id.includes('f22') || div.id.includes('e21') ) {
         square22Clicked++;
     }
-    if (div.id.includes('b15') || div.id.includes('r23') || div.id.includes('b23') || div.id.includes('r22')) {
+    if (div.id.includes('d15') || div.id.includes('e23') || div.id.includes('f23') || div.id.includes('e22')) {
         square23Clicked++;
     }
-    if (div.id.includes('b16') || div.id.includes('r24') || div.id.includes('b24') || div.id.includes('r23') ) {
+    if (div.id.includes('d16') || div.id.includes('e24') || div.id.includes('f24') || div.id.includes('e23') ) {
         square24Clicked++;
     }
-    if (div.id.includes('b17') || div.id.includes('r25') || div.id.includes('b25') || div.id.includes('l25')) {
+    if (div.id.includes('f17') || div.id.includes('g25') || div.id.includes('h25') || div.id.includes('l25')) {
         square25Clicked++;
     }
-    if (div.id.includes('b18') || div.id.includes('r26') || div.id.includes('b26') || div.id.includes('r25') ) {
+    if (div.id.includes('f18') || div.id.includes('g26') || div.id.includes('h26') || div.id.includes('g25') ) {
         square26Clicked++;
     }
-    if (div.id.includes('b19') || div.id.includes('r27') || div.id.includes('b27') || div.id.includes('r26')) {
+    if (div.id.includes('f19') || div.id.includes('g27') || div.id.includes('h27') || div.id.includes('g26')) {
         square27Clicked++;
     }
-    if (div.id.includes('b20') || div.id.includes('r28') || div.id.includes('b28') || div.id.includes('r27') ) {
+    if (div.id.includes('f20') || div.id.includes('g28') || div.id.includes('h28') || div.id.includes('g27') ) {
         square28Clicked++;
     }
-    if (div.id.includes('b21') || div.id.includes('r29') || div.id.includes('b29') || div.id.includes('r28')) {
+    if (div.id.includes('f21') || div.id.includes('g29') || div.id.includes('h29') || div.id.includes('g28')) {
         square29Clicked++;
     }
-    if (div.id.includes('b22') || div.id.includes('r30') || div.id.includes('b30') || div.id.includes('r29') ) {
+    if (div.id.includes('f22') || div.id.includes('g30') || div.id.includes('h30') || div.id.includes('g29') ) {
         square30Clicked++;
     }
-    if (div.id.includes('b23') || div.id.includes('r31') || div.id.includes('b31') || div.id.includes('r30')) {
+    if (div.id.includes('f23') || div.id.includes('g31') || div.id.includes('h31') || div.id.includes('g30')) {
         square31Clicked++;
     }
-    if (div.id.includes('b24') || div.id.includes('r32') || div.id.includes('b32') || div.id.includes('r31') ) {
+    if (div.id.includes('f24') || div.id.includes('g32') || div.id.includes('h32') || div.id.includes('g31') ) {
         square32Clicked++;
     }
-    if (div.id.includes('b25') || div.id.includes('r33') || div.id.includes('b33') || div.id.includes('l33')) {
+    if (div.id.includes('h25') || div.id.includes('i33') || div.id.includes('j33') || div.id.includes('l33')) {
         square33Clicked++;
     }
-    if (div.id.includes('b26') || div.id.includes('r34') || div.id.includes('b34') || div.id.includes('r33') ) {
+    if (div.id.includes('h26') || div.id.includes('i34') || div.id.includes('j34') || div.id.includes('i33') ) {
         square34Clicked++;
     }
-    if (div.id.includes('b27') || div.id.includes('r35') || div.id.includes('b35') || div.id.includes('r34')) {
+    if (div.id.includes('h27') || div.id.includes('i35') || div.id.includes('j35') || div.id.includes('i34')) {
         square35Clicked++;
     }
-    if (div.id.includes('b28') || div.id.includes('r36') || div.id.includes('b36') || div.id.includes('r35') ) {
+    if (div.id.includes('h28') || div.id.includes('i36') || div.id.includes('j36') || div.id.includes('i35') ) {
         square36Clicked++;
     }
-    if (div.id.includes('b29') || div.id.includes('r37') || div.id.includes('b37') || div.id.includes('r36')) {
+    if (div.id.includes('h29') || div.id.includes('i37') || div.id.includes('j37') || div.id.includes('i36')) {
         square37Clicked++;
     }
-    if (div.id.includes('b30') || div.id.includes('r38') || div.id.includes('b38') || div.id.includes('r37') ) {
+    if (div.id.includes('h30') || div.id.includes('i38') || div.id.includes('j38') || div.id.includes('i37') ) {
         square38Clicked++;
     }
-    if (div.id.includes('b31') || div.id.includes('r39') || div.id.includes('b39') || div.id.includes('r38')) {
+    if (div.id.includes('h31') || div.id.includes('i39') || div.id.includes('j39') || div.id.includes('i38')) {
         square39Clicked++;
     }
-    if (div.id.includes('b32') || div.id.includes('r40') || div.id.includes('b40') || div.id.includes('r39') ) {
+    if (div.id.includes('h32') || div.id.includes('i40') || div.id.includes('j40') || div.id.includes('i39') ) {
         square40Clicked++;
     }
-    if (div.id.includes('b33') || div.id.includes('r41') || div.id.includes('b41') || div.id.includes('l41')) {
+    if (div.id.includes('j33') || div.id.includes('k41') || div.id.includes('m41') || div.id.includes('l41')) {
         square41Clicked++;
     }
-    if (div.id.includes('b34') || div.id.includes('r42') || div.id.includes('b42') || div.id.includes('r41') ) {
+    if (div.id.includes('j34') || div.id.includes('k42') || div.id.includes('m42') || div.id.includes('k41') ) {
         square42Clicked++;
     }
-    if (div.id.includes('b35') || div.id.includes('r43') || div.id.includes('b43') || div.id.includes('r42')) {
+    if (div.id.includes('j35') || div.id.includes('k43') || div.id.includes('m43') || div.id.includes('k42')) {
         square43Clicked++;
     }
-    if (div.id.includes('b36') || div.id.includes('r44') || div.id.includes('b44') || div.id.includes('r43') ) {
+    if (div.id.includes('j36') || div.id.includes('k44') || div.id.includes('m44') || div.id.includes('k43') ) {
         square44Clicked++;
     }
-    if (div.id.includes('b37') || div.id.includes('r45') || div.id.includes('b45') || div.id.includes('r44')) {
+    if (div.id.includes('j37') || div.id.includes('k45') || div.id.includes('m45') || div.id.includes('k44')) {
         square45Clicked++;
     }
-    if (div.id.includes('b38') || div.id.includes('r46') || div.id.includes('b46') || div.id.includes('r45') ) {
+    if (div.id.includes('j38') || div.id.includes('k46') || div.id.includes('m46') || div.id.includes('k45') ) {
         square46Clicked++;
     }
-    if (div.id.includes('b39') || div.id.includes('r47') || div.id.includes('b47') || div.id.includes('r46')) {
+    if (div.id.includes('j39') || div.id.includes('k47') || div.id.includes('m47') || div.id.includes('k46')) {
         square47Clicked++;
     }
-    if (div.id.includes('b40') || div.id.includes('r48') || div.id.includes('b48') || div.id.includes('r47') ) {
+    if (div.id.includes('j40') || div.id.includes('k48') || div.id.includes('m48') || div.id.includes('k47') ) {
         square48Clicked++;
     }
-    if (div.id.includes('b41') || div.id.includes('r49') || div.id.includes('b49') || div.id.includes('l49')) {
+    if (div.id.includes('m41') || div.id.includes('n49') || div.id.includes('o49') || div.id.includes('l49')) {
         square49Clicked++;
     }
-    if (div.id.includes('b42') || div.id.includes('r50') || div.id.includes('b50') || div.id.includes('r49') ) {
+    if (div.id.includes('m42') || div.id.includes('n50') || div.id.includes('o50') || div.id.includes('n49') ) {
         square50Clicked++;
     }
-    if (div.id.includes('b43') || div.id.includes('r51') || div.id.includes('b51') || div.id.includes('r50')) {
+    if (div.id.includes('m43') || div.id.includes('n51') || div.id.includes('o51') || div.id.includes('n50')) {
         square51Clicked++;
     }
-    if (div.id.includes('b44') || div.id.includes('r52') || div.id.includes('b52') || div.id.includes('r51') ) {
+    if (div.id.includes('m44') || div.id.includes('n52') || div.id.includes('o52') || div.id.includes('n51') ) {
         square52Clicked++;
     }
-    if (div.id.includes('b45') || div.id.includes('r53') || div.id.includes('b53') || div.id.includes('r52')) {
+    if (div.id.includes('m45') || div.id.includes('n53') || div.id.includes('o53') || div.id.includes('n52')) {
         square53Clicked++;
     }
-    if (div.id.includes('b46') || div.id.includes('r54') || div.id.includes('b54') || div.id.includes('r53') ) {
+    if (div.id.includes('m46') || div.id.includes('n54') || div.id.includes('o54') || div.id.includes('n53') ) {
         square54Clicked++;
     }
-    if (div.id.includes('b47') || div.id.includes('r55') || div.id.includes('b55') || div.id.includes('r54')) {
+    if (div.id.includes('m47') || div.id.includes('n55') || div.id.includes('o55') || div.id.includes('n54')) {
         square55Clicked++;
     }
-    if (div.id.includes('b48') || div.id.includes('r56') || div.id.includes('b56') || div.id.includes('r55') ) {
+    if (div.id.includes('m48') || div.id.includes('n56') || div.id.includes('o56') || div.id.includes('n55') ) {
         square56Clicked++;
     }
-    if (div.id.includes('b49') || div.id.includes('r57') || div.id.includes('b57') || div.id.includes('l57')) {
+    if (div.id.includes('o49') || div.id.includes('p57') || div.id.includes('q57') || div.id.includes('l57')) {
         square57Clicked++;
     }
-    if (div.id.includes('b50') || div.id.includes('r58') || div.id.includes('b58') || div.id.includes('r57') ) {
+    if (div.id.includes('o50') || div.id.includes('p58') || div.id.includes('q58') || div.id.includes('p57') ) {
         square58Clicked++;
     }
-    if (div.id.includes('b51') || div.id.includes('r59') || div.id.includes('b59') || div.id.includes('r58')) {
+    if (div.id.includes('o51') || div.id.includes('p59') || div.id.includes('q59') || div.id.includes('p58')) {
         square59Clicked++;
     }
-    if (div.id.includes('b52') || div.id.includes('r60') || div.id.includes('b60') || div.id.includes('r59') ) {
+    if (div.id.includes('o52') || div.id.includes('p60') || div.id.includes('q60') || div.id.includes('p59') ) {
         square60Clicked++;
     }
-    if (div.id.includes('b53') || div.id.includes('r61') || div.id.includes('b61') || div.id.includes('r60')) {
+    if (div.id.includes('o53') || div.id.includes('p61') || div.id.includes('q61') || div.id.includes('p60')) {
         square61Clicked++;
     }
-    if (div.id.includes('b54') || div.id.includes('r62') || div.id.includes('b62') || div.id.includes('r61') ) {
+    if (div.id.includes('o54') || div.id.includes('p62') || div.id.includes('q62') || div.id.includes('p61') ) {
         square62Clicked++;
     }
-    if (div.id.includes('b55') || div.id.includes('r63') || div.id.includes('b63') || div.id.includes('r62')) {
+    if (div.id.includes('o55') || div.id.includes('p63') || div.id.includes('q63') || div.id.includes('p62')) {
         square63Clicked++;
     }
-    if (div.id.includes('b56') || div.id.includes('r64') || div.id.includes('b64') || div.id.includes('r63') ) {
+    if (div.id.includes('o56') || div.id.includes('p64') || div.id.includes('q64') || div.id.includes('p63') ) {
         square64Clicked++;
     }
 
