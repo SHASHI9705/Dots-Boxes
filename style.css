@@ -136,7 +136,7 @@ h1{
     font-size: 27px;
     font-style: italic;
     text-shadow: 0 0 4px black;
-    box-shadow: 0 0 4px black;
+    box-shadow: 0 0 3px black;
     border: 2px solid black;
 }
 
@@ -153,6 +153,6 @@ h1{
     font-size: 27px;
     font-style: italic;
     text-shadow: 0 0 4px black;
-    box-shadow: 0 0 4px black;
+    box-shadow: 0 0 3px black;
     border: 2px solid black;
 }
