@@ -1,10 +1,9 @@
-
-body{
+body {
     background-color: gray;
     overflow: hidden;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 45px;
     font-style: italic;
@@ -15,15 +14,12 @@ h1{
     border-radius: 10px;
     top: 0;
 }
-.clicked{
-    background-color: red;
-    box-shadow: 0 0 5px white;
-}
 
-.main{
+
+.main {
     height: 500px;
     width: 500px;
-    background-color:blue;
+    background-color: rgb(132, 137, 0);
     margin-left: 32%;
     padding-right: 30px;
     padding-left: 30px;
@@ -32,14 +28,13 @@ h1{
     border: 5px solid black;
     box-shadow: 0 0 4px black;
     border-radius: 10px;
-    
 }
-.line1st{
+
+.line1st {
     display: flex;
 }
 
-
-.dot1{
+.dot1 {
     height: 10px;
     width: 10px;
     border-radius: 50%;
@@ -47,64 +42,62 @@ h1{
     box-shadow: 0 0 5px white;
 }
 
-
-.line1{
+.line1 {
     height: 9px;
     width: 50px;
     border-radius: 20px;
     border: 1px solid black;
-    
 }
 
-.line1:hover{
+.red {
     background-color: red;
-    cursor: pointer;
     box-shadow: 0 0 5px white;
 }
 
-.line2nd{
+.blue {
+    background-color: blue;
+    box-shadow: 0 0 5px white;
+}
+
+
+.line2nd {
     display: flex;
 }
 
-.line2{
+.line2 {
     height: 50px;
     width: 9px;
     border-radius: 20px;
     border: 1px solid black;
     margin-right: 50.5px;
-
 }
 
-.line2:hover{
-    background-color: red;
+.line1:hover:not(.red):not(.blue),
+.line2:hover:not(.red):not(.blue) {
+    background-color: rgb(149, 213, 129);
     cursor: pointer;
     box-shadow: 0 0 5px white;
 }
 
-.line2last{
+.line2last {
     height: 50px;
     width: 9px;
     border-radius: 20px;
     border: 1px solid black;
-
 }
 
-.line2last:hover{
+.line2last:hover {
     background-color: red;
     cursor: pointer;
 }
 
-
-
-
-.footer{
+.footer {
     display: flex;
 
     margin-left: 35%;
 }
 
-
-.resetbtn{
+.resetbtn {
     background-color: rgb(14, 57, 163);
     font: bold;
     text-align: center;
@@ -119,12 +112,12 @@ h1{
     text-shadow: 0 0 4px black;
 }
 
-.resetbtn:hover{
+.resetbtn:hover {
     background-color: aqua;
     cursor: pointer;
 }
 
-.p1{
+.p1 {
     background-color: rgb(132, 137, 0);
     font: bold;
     text-align: center;
@@ -136,11 +129,11 @@ h1{
     font-size: 27px;
     font-style: italic;
     text-shadow: 0 0 4px black;
-    box-shadow: 0 0 3.9px black;
-    border: 2px solid black;
+    box-shadow: 0 0 3.9px red;
+    border: 2px solid red;
 }
 
-.p2{
+.p2 {
     background-color: rgb(132, 137, 0);
     font: bold;
     text-align: center;
@@ -153,6 +146,6 @@ h1{
     font-size: 27px;
     font-style: italic;
     text-shadow: 0 0 4px black;
-    box-shadow: 0 0 3.9px black;
-    border: 2px solid black;
+    box-shadow: 0 0 3.9px blue;
+    border: 2px solid blue;
 }

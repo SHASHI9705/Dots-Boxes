@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,284 +8,285 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="x-icon" href="dots.png">
 </head>
+
 <body>
     <h1 class="gameHead">Dots And Boxes</h1>
     <div class="main">
         <div class="line1st">
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="t1"></div>
+            <div class="line1" onclick="handleClick(this)" id="t1"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="t2"></div>
+            <div class="line1" onclick="handleClick(this)" id="t2"></div>
             <div class="dot1"></div>
-            <div class="line1"onclick="changeColor(this)" id="t3"></div>
+            <div class="line1" onclick="handleClick(this)" id="t3"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="t4"></div>
+            <div class="line1" onclick="handleClick(this)" id="t4"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="t5"></div>
+            <div class="line1" onclick="handleClick(this)" id="t5"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="t6"></div>
+            <div class="line1" onclick="handleClick(this)" id="t6"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="t7"></div>
+            <div class="line1" onclick="handleClick(this)" id="t7"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="t8"></div>
+            <div class="line1" onclick="handleClick(this)" id="t8"></div>
             <div class="dot1"></div>
         </div>
         <div class="line2nd">
-            <div class="line2" onclick="changeColor(this)" id="l1"></div>
-            <div class="line2" onclick="changeColor(this)" id="r1"></div>
-            <div class="line2" onclick="changeColor(this)" id="r2"></div>
-            <div class="line2" onclick="changeColor(this)" id="r3"></div>
-            <div class="line2" onclick="changeColor(this)" id="r4"></div>
-            <div class="line2" onclick="changeColor(this)" id="r5"></div>
-            <div class="line2" onclick="changeColor(this)" id="r6"></div>
-            <div class="line2" onclick="changeColor(this)" id="r7"></div>
-            <div class="line2last" onclick="changeColor(this)" id="r8"></div>
+            <div class="line2" onclick="handleClick(this)" id="l1"></div>
+            <div class="line2" onclick="handleClick(this)" id="r1"></div>
+            <div class="line2" onclick="handleClick(this)" id="r2"></div>
+            <div class="line2" onclick="handleClick(this)" id="r3"></div>
+            <div class="line2" onclick="handleClick(this)" id="r4"></div>
+            <div class="line2" onclick="handleClick(this)" id="r5"></div>
+            <div class="line2" onclick="handleClick(this)" id="r6"></div>
+            <div class="line2" onclick="handleClick(this)" id="r7"></div>
+            <div class="line2last" onclick="handleClick(this)" id="r8"></div>
         </div>
         <div class="line1st">
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="b1"></div>
+            <div class="line1" onclick="handleClick(this)" id="b1"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="b2"></div>
+            <div class="line1" onclick="handleClick(this)" id="b2"></div>
             <div class="dot1"></div>
-            <div class="line1"onclick="changeColor(this)" id="b3"></div>
+            <div class="line1" onclick="handleClick(this)" id="b3"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="b4"></div>
+            <div class="line1" onclick="handleClick(this)" id="b4"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="b5"></div>
+            <div class="line1" onclick="handleClick(this)" id="b5"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="b6"></div>
+            <div class="line1" onclick="handleClick(this)" id="b6"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="b7"></div>
+            <div class="line1" onclick="handleClick(this)" id="b7"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="b8"></div>
+            <div class="line1" onclick="handleClick(this)" id="b8"></div>
             <div class="dot1"></div>
         </div>
         <div class="line2nd">
             <!-- r9,10... -->
-            <div class="line2" onclick="changeColor(this)" id="l9"></div>
-            <div class="line2" onclick="changeColor(this)" id="c9"></div>
-            <div class="line2" onclick="changeColor(this)" id="c10"></div> 
-            <div class="line2" onclick="changeColor(this)" id="c11"></div>
-            <div class="line2" onclick="changeColor(this)" id="c12"></div>
-            <div class="line2" onclick="changeColor(this)" id="c13"></div>
-            <div class="line2" onclick="changeColor(this)" id="c14"></div>
-            <div class="line2" onclick="changeColor(this)" id="c15"></div>
-            <div class="line2last" onclick="changeColor(this)" id="c16"></div>
+            <div class="line2" onclick="handleClick(this)" id="l9"></div>
+            <div class="line2" onclick="handleClick(this)" id="c9"></div>
+            <div class="line2" onclick="handleClick(this)" id="c10"></div>
+            <div class="line2" onclick="handleClick(this)" id="c11"></div>
+            <div class="line2" onclick="handleClick(this)" id="c12"></div>
+            <div class="line2" onclick="handleClick(this)" id="c13"></div>
+            <div class="line2" onclick="handleClick(this)" id="c14"></div>
+            <div class="line2" onclick="handleClick(this)" id="c15"></div>
+            <div class="line2last" onclick="handleClick(this)" id="c16"></div>
         </div>
         <div class="line1st">
             <!-- bottom -->
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="d9"></div>
+            <div class="line1" onclick="handleClick(this)" id="d9"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="d10"></div>
+            <div class="line1" onclick="handleClick(this)" id="d10"></div>
             <div class="dot1"></div>
-            <div class="line1"onclick="changeColor(this)" id="d11"></div>
+            <div class="line1" onclick="handleClick(this)" id="d11"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="d12"></div>
+            <div class="line1" onclick="handleClick(this)" id="d12"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="d13"></div>
+            <div class="line1" onclick="handleClick(this)" id="d13"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="d14"></div>
+            <div class="line1" onclick="handleClick(this)" id="d14"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="d15"></div>
+            <div class="line1" onclick="handleClick(this)" id="d15"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="d16"></div>
+            <div class="line1" onclick="handleClick(this)" id="d16"></div>
             <div class="dot1"></div>
         </div>
         <div class="line2nd">
             <!-- right -->
-            <div class="line2" onclick="changeColor(this)" id="l17"></div>
-            <div class="line2" onclick="changeColor(this)" id="e17"></div>
-            <div class="line2" onclick="changeColor(this)" id="e18"></div>
-            <div class="line2" onclick="changeColor(this)" id="e19"></div>
-            <div class="line2" onclick="changeColor(this)" id="e20"></div>
-            <div class="line2" onclick="changeColor(this)" id="e21"></div>
-            <div class="line2" onclick="changeColor(this)" id="e22"></div>
-            <div class="line2" onclick="changeColor(this)" id="e23"></div>
-            <div class="line2last" onclick="changeColor(this)" id="e24"></div>
+            <div class="line2" onclick="handleClick(this)" id="l17"></div>
+            <div class="line2" onclick="handleClick(this)" id="e17"></div>
+            <div class="line2" onclick="handleClick(this)" id="e18"></div>
+            <div class="line2" onclick="handleClick(this)" id="e19"></div>
+            <div class="line2" onclick="handleClick(this)" id="e20"></div>
+            <div class="line2" onclick="handleClick(this)" id="e21"></div>
+            <div class="line2" onclick="handleClick(this)" id="e22"></div>
+            <div class="line2" onclick="handleClick(this)" id="e23"></div>
+            <div class="line2last" onclick="handleClick(this)" id="e24"></div>
         </div>
         <div class="line1st">
             <!-- bottom  -->
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="f17"></div>
+            <div class="line1" onclick="handleClick(this)" id="f17"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="f18"></div>
+            <div class="line1" onclick="handleClick(this)" id="f18"></div>
             <div class="dot1"></div>
-            <div class="line1"onclick="changeColor(this)" id="f19"></div>
+            <div class="line1" onclick="handleClick(this)" id="f19"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="f20"></div>
+            <div class="line1" onclick="handleClick(this)" id="f20"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="f21"></div>
+            <div class="line1" onclick="handleClick(this)" id="f21"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="f22"></div>
+            <div class="line1" onclick="handleClick(this)" id="f22"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="f23"></div>
+            <div class="line1" onclick="handleClick(this)" id="f23"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="f24"></div>
+            <div class="line1" onclick="handleClick(this)" id="f24"></div>
             <div class="dot1"></div>
         </div>
         <div class="line2nd">
             <!-- right  -->
-            <div class="line2" onclick="changeColor(this)" id="l25"></div>
-            <div class="line2" onclick="changeColor(this)" id="g25"></div>
-            <div class="line2" onclick="changeColor(this)" id="g26"></div>
-            <div class="line2" onclick="changeColor(this)" id="g27"></div>
-            <div class="line2" onclick="changeColor(this)" id="g28"></div>
-            <div class="line2" onclick="changeColor(this)" id="g29"></div>
-            <div class="line2" onclick="changeColor(this)" id="g30"></div>
-            <div class="line2" onclick="changeColor(this)" id="g31"></div>
-            <div class="line2last" onclick="changeColor(this)" id="g32"></div>
+            <div class="line2" onclick="handleClick(this)" id="l25"></div>
+            <div class="line2" onclick="handleClick(this)" id="g25"></div>
+            <div class="line2" onclick="handleClick(this)" id="g26"></div>
+            <div class="line2" onclick="handleClick(this)" id="g27"></div>
+            <div class="line2" onclick="handleClick(this)" id="g28"></div>
+            <div class="line2" onclick="handleClick(this)" id="g29"></div>
+            <div class="line2" onclick="handleClick(this)" id="g30"></div>
+            <div class="line2" onclick="handleClick(this)" id="g31"></div>
+            <div class="line2last" onclick="handleClick(this)" id="g32"></div>
         </div>
         <div class="line1st">
             <!-- bottom  -->
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="h25"></div>
+            <div class="line1" onclick="handleClick(this)" id="h25"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="h26"></div>
+            <div class="line1" onclick="handleClick(this)" id="h26"></div>
             <div class="dot1"></div>
-            <div class="line1"onclick="changeColor(this)" id="h27"></div>
+            <div class="line1" onclick="handleClick(this)" id="h27"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="h28"></div>
+            <div class="line1" onclick="handleClick(this)" id="h28"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="h29"></div>
+            <div class="line1" onclick="handleClick(this)" id="h29"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="h30"></div>
+            <div class="line1" onclick="handleClick(this)" id="h30"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="h31"></div>
+            <div class="line1" onclick="handleClick(this)" id="h31"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="h32"></div>
+            <div class="line1" onclick="handleClick(this)" id="h32"></div>
             <div class="dot1"></div>
         </div>
         <div class="line2nd">
             <!-- right  -->
-            <div class="line2" onclick="changeColor(this)" id="l33"></div>
-            <div class="line2" onclick="changeColor(this)" id="i33"></div>
-            <div class="line2" onclick="changeColor(this)" id="i34"></div>
-            <div class="line2" onclick="changeColor(this)" id="i35"></div>
-            <div class="line2" onclick="changeColor(this)" id="i36"></div>
-            <div class="line2" onclick="changeColor(this)" id="i37"></div>
-            <div class="line2" onclick="changeColor(this)" id="i38"></div>
-            <div class="line2" onclick="changeColor(this)" id="i39"></div>
-            <div class="line2last" onclick="changeColor(this)" id="i40"></div>
+            <div class="line2" onclick="handleClick(this)" id="l33"></div>
+            <div class="line2" onclick="handleClick(this)" id="i33"></div>
+            <div class="line2" onclick="handleClick(this)" id="i34"></div>
+            <div class="line2" onclick="handleClick(this)" id="i35"></div>
+            <div class="line2" onclick="handleClick(this)" id="i36"></div>
+            <div class="line2" onclick="handleClick(this)" id="i37"></div>
+            <div class="line2" onclick="handleClick(this)" id="i38"></div>
+            <div class="line2" onclick="handleClick(this)" id="i39"></div>
+            <div class="line2last" onclick="handleClick(this)" id="i40"></div>
         </div>
         <div class="line1st">
             <!-- bottom  -->
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="j33"></div>
+            <div class="line1" onclick="handleClick(this)" id="j33"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="j34"></div>
+            <div class="line1" onclick="handleClick(this)" id="j34"></div>
             <div class="dot1"></div>
-            <div class="line1"onclick="changeColor(this)" id="j35"></div>
+            <div class="line1" onclick="handleClick(this)" id="j35"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="j36"></div>
+            <div class="line1" onclick="handleClick(this)" id="j36"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="j37"></div>
+            <div class="line1" onclick="handleClick(this)" id="j37"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="j38"></div>
+            <div class="line1" onclick="handleClick(this)" id="j38"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="j39"></div>
+            <div class="line1" onclick="handleClick(this)" id="j39"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="j40"></div>
+            <div class="line1" onclick="handleClick(this)" id="j40"></div>
             <div class="dot1"></div>
         </div>
         <div class="line2nd">
             <!-- right  -->
-            <div class="line2" onclick="changeColor(this)" id="l41"></div>
-            <div class="line2" onclick="changeColor(this)" id="k41"></div>
-            <div class="line2" onclick="changeColor(this)" id="k42"></div>
-            <div class="line2" onclick="changeColor(this)" id="k43"></div>
-            <div class="line2" onclick="changeColor(this)" id="k44"></div>
-            <div class="line2" onclick="changeColor(this)" id="k45"></div>
-            <div class="line2" onclick="changeColor(this)" id="k46"></div>
-            <div class="line2" onclick="changeColor(this)" id="k47"></div>
-            <div class="line2last" onclick="changeColor(this)" id="k48"></div>
+            <div class="line2" onclick="handleClick(this)" id="l41"></div>
+            <div class="line2" onclick="handleClick(this)" id="k41"></div>
+            <div class="line2" onclick="handleClick(this)" id="k42"></div>
+            <div class="line2" onclick="handleClick(this)" id="k43"></div>
+            <div class="line2" onclick="handleClick(this)" id="k44"></div>
+            <div class="line2" onclick="handleClick(this)" id="k45"></div>
+            <div class="line2" onclick="handleClick(this)" id="k46"></div>
+            <div class="line2" onclick="handleClick(this)" id="k47"></div>
+            <div class="line2last" onclick="handleClick(this)" id="k48"></div>
         </div>
         <div class="line1st">
             <!-- bottom  -->
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="m41"></div>
+            <div class="line1" onclick="handleClick(this)" id="m41"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="m42"></div>
+            <div class="line1" onclick="handleClick(this)" id="m42"></div>
             <div class="dot1"></div>
-            <div class="line1"onclick="changeColor(this)" id="m43"></div>
+            <div class="line1" onclick="handleClick(this)" id="m43"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="m44"></div>
+            <div class="line1" onclick="handleClick(this)" id="m44"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="m45"></div>
+            <div class="line1" onclick="handleClick(this)" id="m45"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="m46"></div>
+            <div class="line1" onclick="handleClick(this)" id="m46"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="m47"></div>
+            <div class="line1" onclick="handleClick(this)" id="m47"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="m48"></div>
+            <div class="line1" onclick="handleClick(this)" id="m48"></div>
             <div class="dot1"></div>
         </div>
         <div class="line2nd">
             <!-- right  -->
-            <div class="line2" onclick="changeColor(this)" id="l49"></div>
-            <div class="line2" onclick="changeColor(this)" id="n49"></div>
-            <div class="line2" onclick="changeColor(this)" id="n50"></div>
-            <div class="line2" onclick="changeColor(this)" id="n51"></div>
-            <div class="line2" onclick="changeColor(this)" id="n52"></div>
-            <div class="line2" onclick="changeColor(this)" id="n53"></div>
-            <div class="line2" onclick="changeColor(this)" id="n54"></div>
-            <div class="line2" onclick="changeColor(this)" id="n55"></div>
-            <div class="line2last" onclick="changeColor(this)" id="n56"></div>
+            <div class="line2" onclick="handleClick(this)" id="l49"></div>
+            <div class="line2" onclick="handleClick(this)" id="n49"></div>
+            <div class="line2" onclick="handleClick(this)" id="n50"></div>
+            <div class="line2" onclick="handleClick(this)" id="n51"></div>
+            <div class="line2" onclick="handleClick(this)" id="n52"></div>
+            <div class="line2" onclick="handleClick(this)" id="n53"></div>
+            <div class="line2" onclick="handleClick(this)" id="n54"></div>
+            <div class="line2" onclick="handleClick(this)" id="n55"></div>
+            <div class="line2last" onclick="handleClick(this)" id="n56"></div>
         </div>
         <div class="line1st">
             <!-- bottom  -->
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="o49"></div>
+            <div class="line1" onclick="handleClick(this)" id="o49"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="o50"></div>
+            <div class="line1" onclick="handleClick(this)" id="o50"></div>
             <div class="dot1"></div>
-            <div class="line1"onclick="changeColor(this)" id="o51"></div>
+            <div class="line1" onclick="handleClick(this)" id="o51"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="o52"></div>
+            <div class="line1" onclick="handleClick(this)" id="o52"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="o53"></div>
+            <div class="line1" onclick="handleClick(this)" id="o53"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="o54"></div>
+            <div class="line1" onclick="handleClick(this)" id="o54"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="o55"></div>
+            <div class="line1" onclick="handleClick(this)" id="o55"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="o56"></div>
+            <div class="line1" onclick="handleClick(this)" id="o56"></div>
             <div class="dot1"></div>
         </div>
         <div class="line2nd">
             <!-- right  -->
-            <div class="line2" onclick="changeColor(this)" id="l57"></div>
-            <div class="line2" onclick="changeColor(this)" id="p57"></div>
-            <div class="line2" onclick="changeColor(this)" id="p58"></div>
-            <div class="line2" onclick="changeColor(this)" id="p59"></div>
-            <div class="line2" onclick="changeColor(this)" id="p60"></div>
-            <div class="line2" onclick="changeColor(this)" id="p61"></div>
-            <div class="line2" onclick="changeColor(this)" id="p62"></div>
-            <div class="line2" onclick="changeColor(this)" id="p63"></div>
-            <div class="line2last" onclick="changeColor(this)" id="p64"></div>
+            <div class="line2" onclick="handleClick(this)" id="l57"></div>
+            <div class="line2" onclick="handleClick(this)" id="p57"></div>
+            <div class="line2" onclick="handleClick(this)" id="p58"></div>
+            <div class="line2" onclick="handleClick(this)" id="p59"></div>
+            <div class="line2" onclick="handleClick(this)" id="p60"></div>
+            <div class="line2" onclick="handleClick(this)" id="p61"></div>
+            <div class="line2" onclick="handleClick(this)" id="p62"></div>
+            <div class="line2" onclick="handleClick(this)" id="p63"></div>
+            <div class="line2last" onclick="handleClick(this)" id="p64"></div>
         </div>
         <div class="line1st">
             <!-- bottom  -->
-             <!-- last  -->
+            <!-- last  -->
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="q57"></div>
+            <div class="line1" onclick="handleClick(this)" id="q57"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="q58"></div>
+            <div class="line1" onclick="handleClick(this)" id="q58"></div>
             <div class="dot1"></div>
-            <div class="line1"onclick="changeColor(this)" id="q59"></div>
+            <div class="line1" onclick="handleClick(this)" id="q59"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="q60"></div>
+            <div class="line1" onclick="handleClick(this)" id="q60"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="q61"></div>
+            <div class="line1" onclick="handleClick(this)" id="q61"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="q62"></div>
+            <div class="line1" onclick="handleClick(this)" id="q62"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="q63"></div>
+            <div class="line1" onclick="handleClick(this)" id="q63"></div>
             <div class="dot1"></div>
-            <div class="line1" onclick="changeColor(this)" id="q64"></div>
+            <div class="line1" onclick="handleClick(this)" id="q64"></div>
             <div class="dot1"></div>
         </div>
-        
+
 
     </div>
     <div class="footer">
@@ -294,4 +296,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
