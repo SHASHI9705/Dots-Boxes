@@ -10,7 +10,7 @@ document.querySelector(".p1").innerHTML = `${playerRed}: ${countRed}`;
 document.querySelector(".p2").innerHTML = `${playerBlue}: ${countBlue}`;
 
 const squareClicked = Array(64).fill(0);
-const squareCompleted = Array(64).fill(0);
+const squareCompleted = Array(64).fill(false);
 
 function changeColor(div, winner) {
     if (!winner) {
@@ -592,7 +592,7 @@ function resetColor() {
 
     currentTurn = "red";
     squareClicked.fill(0);
-    squareCompleted.fill(0);
+    squareCompleted.fill(false);
     countRed = 0;
     countBlue = 0;
 
