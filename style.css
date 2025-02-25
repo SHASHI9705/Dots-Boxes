@@ -5,6 +5,8 @@ body {
 
 h1 {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 45px;
     font-style: italic;
     color: aqua;
@@ -16,11 +18,13 @@ h1 {
 }
 
 
+
 .main {
     height: 500px;
     width: 500px;
     background-color: rgb(132, 137, 0);
-    margin-left: 32%;
+    margin-left: auto;
+    margin-right: auto;
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 20px;
@@ -29,6 +33,7 @@ h1 {
     box-shadow: 0 0 4px black;
     border-radius: 10px;
 }
+
 
 .line1st {
     display: flex;
@@ -93,8 +98,20 @@ h1 {
 
 .footer {
     display: flex;
+    margin-right: auto;
 
-    margin-left: 35%;
+    width: fit-content;
+
+    margin-left: auto;
+}
+@media (max-width: 610px) {
+    h1 {
+        margin-left: 9.5rem;
+    }
+
+    .footer {
+        margin-left: 2rem;
+    }
 }
 
 .resetbtn {
