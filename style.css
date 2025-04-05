@@ -1,5 +1,7 @@
 body {
-    background-color: gray;
+    background-image: url('smooth-gradient-background_77528-21.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
 }
 
@@ -10,9 +12,9 @@ h1 {
     font-size: 45px;
     font-style: italic;
     color: aqua;
-    text-shadow: 0 0 4px black;
-    box-shadow: 0 0 4px black;
-    background-color: white;
+    text-shadow: 0 0 4px rgb(248, 248, 248);
+    box-shadow: 0 0 4px rgb(240, 238, 238);
+    background-color: rgba(39, 37, 37, 0.414);
     border-radius: 10px;
     top: 0;
 }
@@ -22,15 +24,15 @@ h1 {
 .main {
     height: 500px;
     width: 500px;
-    background-color: rgb(132, 137, 0);
+    background-color: rgba(36, 36, 36, 0.088);
     margin-left: auto;
     margin-right: auto;
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 30px;
-    border: 5px solid black;
-    box-shadow: 0 0 4px black;
+    border: 1px solid black;
+    box-shadow: 0 0 4px rgb(255, 255, 255);
     border-radius: 10px;
 }
 
@@ -135,7 +137,7 @@ h1 {
 }
 
 .p1 {
-    background-color: rgb(132, 137, 0);
+    background-color: rgba(0, 0, 0, 0.078);
     font: bold;
     text-align: center;
     color: aqua;
@@ -151,7 +153,7 @@ h1 {
 }
 
 .p2 {
-    background-color: rgb(132, 137, 0);
+    background-color: rgba(0, 0, 0, 0.078);
     font: bold;
     text-align: center;
     color: aqua;
